@@ -15,22 +15,22 @@ Developer
 ```sh
 gulp
 ```
-If you want browser reload install liveReload
-
-### Chrome ###
-[https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei](Link URL)
-### Firefox ###
-[https://addons.mozilla.org/es/firefox/addon/livereload/](Link URL)
 
 Build element into dist folder
 ```sh
 gulp build
 ```
 
+## Browser auto reload
+If you want browser auto reload, install liveReload browser plugin
+
+### Chrome ###
+[https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei](Link URL)
+### Firefox ###
+[https://addons.mozilla.org/es/firefox/addon/livereload/](Link URL)
 
 ## Test
 
 ```sh
-npm install -g web-component-tester
 wct
 ```
