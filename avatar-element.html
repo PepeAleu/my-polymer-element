@@ -1,0 +1,64 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+Avatar profile element.
+
+Examples:
+
+    <avatar-element src="me.jpg"></avatar-element>
+
+@demo demo/index.html
+-->
+
+<dom-module id="avatar-element">
+  <template>
+    <style>
+    :host {
+      display: block; }
+    
+    img {
+      border-radius: 50%; }
+    
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxlQUFlLEVBQ2hCOztBQUVEO0VBQ0UsbUJBQW1CLEVBQ3BCIiwiZmlsZSI6ImluZGV4LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcbiAgZGlzcGxheTogYmxvY2s7XG59XG5cbmltZyB7XG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcbn1cbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ== */
+    
+    </style>
+    
+
+    <img id="avatarImg" style="width:[[width]];height:[[height]]" src="[[src]]" alt="Imágen de perfil" />
+
+  </template>
+  <script>
+  Polymer({
+    is: "avatar-element",
+    properties: {
+      /**
+       * The input name.
+       */
+      name: {
+        type: String,
+        value: 'Avatar Profile'
+      },
+      /**
+       * Specify the img url
+       */
+      src: String,
+      /**
+       * Specify the img width
+       */
+      width: {
+        type: String,
+        value: '200px'
+      },
+      /**
+       * Specify the img height
+       */
+      height: {
+        type: String,
+        value: '200px'
+      },
+    },
+  });
+  
+  </script>
+  
+</dom-module>
