@@ -1,8 +1,10 @@
 # my-polymer-element #
-This project is a polymer element architecture
+This project is a polymer element architecture.
+
+Contain an example element: **avatar-element.**
 
 ## Install
-
+type on terminal:
 ```sh
 npm install
 bower install
