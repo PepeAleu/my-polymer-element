@@ -1,16 +1,35 @@
-## avatar-element
-
-Avatar profile Polymer element
+## my-polymer-element
+This project is a polymer element architecture
 
 ### Install
 
 ```sh
+npm install
 bower install
 npm install -g polyserve
-polyserve
+npm install -g gulp
 ```
 
-navigate to http://localhost:8080/components/avatar-element/
+### Tasks
+Developer
+```sh
+gulp
+```
+If you want browser reload install liveReload
+
+Chrome
+[https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei](Link URL)
+Firefox
+
+[https://addons.mozilla.org/es/firefox/addon/livereload/](Link URL)
+
+### Your title here... ###
+
+Build element into dist folder
+```sh
+gulp build
+```
+
 
 ### Test
 
