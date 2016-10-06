@@ -18,8 +18,7 @@ gulp
 If you want browser reload install liveReload
 
 ### Chrome ###
-[https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei](Link U
-RL)
+[https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei](Link URL)
 ### Firefox ###
 [https://addons.mozilla.org/es/firefox/addon/livereload/](Link URL)
 
